@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.ncf-wrapper {
+    margin: 0px;
+    padding: 0px;
+    background-color: #b22830;
+}
+
+.headerTool {
+    float: right;
+    display: inline-block;  
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.logo {
+    margin-left: 150px;
+    display: inline-block;
+    max-width: 100px;
+}
+
+.input {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 200px;
+    height: 30px; 
+    padding-top: 5px;
+
+}
+
+.fa {
+    position: absolute;
+    z-index: 1;
+    margin: 9px 0px 0px -25px;
+}
+
+.rowTool {
+    margin: 0px;
+    padding: 0px;   
+}
+
+.search {
+    float: left;
+    position: relative;
+    z-index: 9;
+}
+
+.language {
+    float: right;
+    padding: 3px;
+}
+
+.language ul {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.language li{
+    display: inline;
+    list-style: none;
+}
+
+.menuTool li {
+    display: inline;
+    margin-top: 10px;
+
+}
+
+.menuTool ul {
+margin: -5px;
+font-weight: 600;
+font-size: 20px;
+}
+
+.menuTool a {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: px;
+    padding: 10px 17px 10px 17px;
+    text-decoration: none;
+}
+
+.menuTool {
+    text-align: center;
+    padding: 15px;
+}
+
+.menuList:hover {
+    background-color: #53382C;
+    /* transition-delay: 0,3s; */
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.col3 {
+    float: right;
+    margin-right: 100px;
+}
+
+.menuHover {
+    display: none;
+    position: absolute;
+    background-color: #53382C;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    animation-delay: 0,5s;
+    margin-top: 10px;
+}
+
+.img {
+    margin-top: 40px;
+}
+
+.tintuc {
+    margin-left: 150px;
+}
+
+.scrollMenu {
+    display: inline-block;
+    width: 100%;
+}
+
+.grid li {
+    display: inline-block;
+    margin-left: -10px;
+}
+
+.hover-li {
+    float: left;
+    margin: 0;
+    width: 22%;
+}
+
+.hover-li-item {
+    color: #f1bc7a !important;
+}
+
+.hover-li a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.hover-li ul li {
+    display: block !important;
+}
+
+.menuList {
+    padding: 15px;
+
+}
+.menuList:hover .menuHover {
+    display: flex;
+    transition-delay: 1s;
+}
+
+.hover-li ul {
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.bannerMenu {
+    background-image: url('https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 190px;
+    margin-bottom: 19px;
+}
+
+
+.slider {
+    position: absolute;
+}
+
+.hover-li {
+    width: 17%;
+}
+
+li.hover-li{
+    margin: 0;
+    text-align: center;
+    width: 16.5%;
+}
+
+.image1 a {
+    position: absolute;
+    float: right;
+    margin: 25% 0 0 62%;
+    height: 53px;
+    font-size: 18px;
+    border-style: solid;
+    width: 239px;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    border-color: rgb(243, 189, 122);
+    color: rgb(243, 189, 122);
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 1px;
+}
+
+.image2 a {
+    position: absolute;
+    float: right;
+    margin: 25% 0 0 30%;
+    height: 53px;
+    font-size: 18px;
+    border-style: solid;
+    width: 239px;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    border-color: rgb(72, 98, 50);
+    color: rgb(72, 98, 50);
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 1px;
+}
+
+.image3 a {
+    position: absolute;
+    float: right;
+    margin: 25% 0 0 62%;
+    height: 53px;
+    font-size: 18px;
+    border-style: solid;
+    width: 239px;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    border-color: rgb(177, 42, 45);
+    color: rgb(177, 42, 45);
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 1px;
+}
+
+.khampha3:hover {
+    color: black;
+    background-color: rgb(177, 42, 45);
+    animation-delay: 0,5s;
+}
+
+.khampha2:hover {
+    color: black;
+    background-color: rgb(72, 98, 50);
+    animation-delay: 0,5s;
+}
+
+.khampha:hover {
+    color: black;
+    background-color: rgb(243, 189, 122);
+    animation-delay: 0,5s;
+}
