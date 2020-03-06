@@ -33,7 +33,7 @@ body {
 
 }
 
-.fa {
+.fa-search {
     position: absolute;
     z-index: 1;
     margin: 9px 0px 0px -25px;
@@ -250,17 +250,110 @@ li.hover-li{
 .khampha3:hover {
     color: black;
     background-color: rgb(177, 42, 45);
-    animation-delay: 0,5s;
+    animation-delay: 0.5s;
 }
 
 .khampha2:hover {
     color: black;
     background-color: rgb(72, 98, 50);
-    animation-delay: 0,5s;
+    animation-delay: 0.5s;
 }
 
 .khampha:hover {
     color: black;
     background-color: rgb(243, 189, 122);
-    animation-delay: 0,5s;
+    animation-delay: 0.5s;
 }
+
+.col-b1 {
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/homepage-STORE_1.jpg);
+    width: 50%;
+    padding-bottom: 18.55% !important;
+    background-size: cover;
+}
+
+.col-b2 {
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/bg2.jpg);
+    width: 50%;
+    padding-bottom: 4% !important;
+    background-size: cover;
+}
+
+.main1 ul {
+    list-style: none;
+    float: right;
+    background-size: cover;
+    margin-top: 95px;
+    margin-bottom: 10px;
+}
+
+.main1 a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main1 a:hover{
+    color: rgb(243, 189, 122);
+}
+
+.main1 li {
+    margin-right: 20px;
+}
+
+.quanmoi {
+    margin-top: 15%;
+    display: inline-block;
+    margin-left: 75px;
+    color: white;
+}
+
+.newfeed1 {
+    /* margin-top: 35px; */
+}
+
+.newfeed1 li {
+    display: inline-block;
+}
+
+.newfeed2 li {
+    display: inline-block;
+    margin-left: 62px;
+}
+
+.mainBotImg {
+    width: 30%;
+    display: inline-block;
+}
+
+.newfeed3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.txtBot {
+    width: 70%;
+    float: right;   
+}
+
+/* .txtBot2 {
+    text-align: left;
+    display: inline-block;
+    float: left;
+} */
+
+.fa-calender {
+    margin-right: 10px;
+}
+
+.txtCalendar {
+    margin-top: 7px;
+} 
+
+.mainBotImg2 {
+   width: 24%;float: left;
+}
+
+
+
