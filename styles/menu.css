@@ -178,11 +178,6 @@ font-size: 20px;
     margin-bottom: 19px;
 }
 
-
-.slider {
-    position: absolute;
-}
-
 .hover-li {
     width: 17%;
 }
@@ -193,10 +188,132 @@ li.hover-li{
     width: 16.5%;
 }
 
+.image1 {
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-PSD-bg.jpg);
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-FREEZE.jpg);
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-TEA-bg.jpg);
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/menu-BANHMI-bg_2.jpg);
+    background-size: cover;
+    height: 380px;
+}
+
+.caption {
+    width: 50%;
+    float: left;
+    margin: 20px 0px 0px 170px;
+}
+
+.caption2 {
+    width: 50%;
+    float: right;
+    margin: 55px 0px 0px 170px;
+}
+
+.caption3 {
+    width: 50%;
+    float: left;
+    margin: 55px 0px 0px 170px;
+}
+
+.caption4 {
+    width: 44%;
+    float: right;
+    margin: 30px 0px 0px 0px;
+}
+
+.tend {
+    height: 78px;
+}
+
+.tend2 {
+    height: 85px;
+}
+
+.tend3 {
+    height: 85px;
+}
+
+.des {
+    height: 175px;
+    width: 67%;
+}
+
+.des2 {
+    height: 125px;
+    width: 66%;
+}
+
+.des3 {
+    height: 125px;
+    width: 66%;
+}
+
+.des4 {
+    height: 145px;
+    width: 90%;
+}
+
+.des4 span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.des3 span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.des2 span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.des span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .image1 a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.image2 a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.image3 a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.image4 a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.khampha:hover {
+    background: #b22830 !important;
+    border-color: #b22830 !important;
+    color: #ffffff !important;
+}
+
+.khampha {
     position: absolute;
     float: right;
-    margin: 25% 0 0 62%;
     height: 53px;
     font-size: 18px;
     border-style: solid;
@@ -209,117 +326,6 @@ li.hover-li{
     text-decoration: none;
     cursor: pointer;
     border-width: 1px;
-}
-
-.image2 a {
-    position: absolute;
-    float: right;
-    margin: 25% 0 0 30%;
-    height: 53px;
-    font-size: 18px;
-    border-style: solid;
-    width: 239px;
-    padding: 12px;
-    border-radius: 5px;
-    text-align: center;
-    border-color: rgb(72, 98, 50);
-    color: rgb(72, 98, 50);
-    text-decoration: none;
-    cursor: pointer;
-    border-width: 1px;
-}
-
-.image3 a {
-    position: absolute;
-    float: right;
-    margin: 25% 0 0 62%;
-    height: 53px;
-    font-size: 18px;
-    border-style: solid;
-    width: 239px;
-    padding: 12px;
-    border-radius: 5px;
-    text-align: center;
-    border-color: rgb(177, 42, 45);
-    color: rgb(177, 42, 45);
-    text-decoration: none;
-    cursor: pointer;
-    border-width: 1px;
-}
-
-.khampha3:hover {
-    color: black;
-    background-color: rgb(177, 42, 45);
-    animation-delay: 0.5s;
-}
-
-.khampha2:hover {
-    color: black;
-    background-color: rgb(72, 98, 50);
-    animation-delay: 0.5s;
-}
-
-.khampha:hover {
-    color: black;
-    background-color: rgb(243, 189, 122);
-    animation-delay: 0.5s;
-}
-
-.col-b1 {
-    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/homepage-STORE_1.jpg);
-    width: 50%;
-    padding-bottom: 18.55% !important;
-    background-size: cover;
-}
-
-.col-b2 {
-    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/bg2.jpg);
-    width: 50%;
-    padding-bottom: 4% !important;
-    background-size: cover;
-}
-
-.main1 ul {
-    list-style: none;
-    float: right;
-    background-size: cover;
-    margin-top: 95px;
-    margin-bottom: 10px;
-}
-
-.main1 a {
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.main1 a:hover{
-    color: rgb(243, 189, 122);
-}
-
-.main1 li {
-    margin-right: 20px;
-}
-
-.quanmoi {
-    margin-top: 15%;
-    display: inline-block;
-    margin-left: 75px;
-    color: white;
-}
-
-.newfeed1 {
-    /* margin-top: 35px; */
-}
-
-.newfeed1 li {
-    display: inline-block;
-}
-
-.newfeed2 li {
-    display: inline-block;
-    margin-left: 62px;
 }
 
 .mainBot {
@@ -361,13 +367,13 @@ li.hover-li{
 
 .footer {
     background: #53382c;
-    padding: 30px;
+    padding: 15px;
 }
 
 .socialFood {
     display: inline-block;
     float: left;
-    margin-top: 20px;
+    margin-top: -1px;
 }
 
 .socialFood li {
@@ -379,19 +385,20 @@ li.hover-li{
 
 .copyRight {
     display: inline-block;
-    margin: 25px 200px 0px 200px;
+    margin: 6px 200px 0px 200px;
     color: white;
 }
 
 .linkFooter {
     display: inline-block;
-    margin-top: 10px;
 }
 
 .linkFooterEmail {
     display: inline-block;
     float: right;
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 5px;
 }
+
+
 
