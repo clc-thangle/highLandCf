@@ -1,0 +1,379 @@
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.ncf-wrapper {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ncf-header {
+    background-color: #b22830;
+}
+
+.headerTool {
+    float: right;
+    display: inline-block;  
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.logo {
+    margin-left: 150px;
+    display: inline-block;
+    max-width: 100px;
+}
+
+.input {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 200px;
+    height: 30px; 
+    padding-top: 5px;
+
+}
+
+.fa-search {
+    position: absolute;
+    z-index: 1;
+    margin: 9px 0px 0px -25px;
+}
+
+.rowTool {
+    margin: 0px;
+    padding: 0px;   
+}
+
+.search {
+    float: left;
+    position: relative;
+    z-index: 9;
+}
+
+.language {
+    float: right;
+    padding: 3px;
+}
+
+.language ul {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.language li{
+    display: inline;
+    list-style: none;
+}
+
+.menuTool li {
+    display: inline;
+    margin-top: 10px;
+
+}
+
+.menuTool ul {
+margin: -5px;
+font-weight: 600;
+font-size: 20px;
+}
+
+.menuTool a {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: px;
+    padding: 10px 17px 10px 17px;
+    text-decoration: none;
+}
+
+.menuTool {
+    text-align: center;
+    padding: 15px;
+}
+
+.menuList:hover {
+    background-color: #53382C;
+    /* transition-delay: 0,3s; */
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.col3 {
+    float: right;
+    margin-right: 100px;
+}
+
+.menuHover {
+    display: none;
+    position: absolute;
+    background-color: #53382C;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    animation-delay: 0,5s;
+    margin-top: 10px;
+}
+
+.img {
+    margin-top: 40px;
+}
+
+.tintuc {
+    margin-left: 150px;
+}
+
+.scrollMenu {
+    display: inline-block;
+    width: 100%;
+}
+
+.grid li {
+    display: inline-block;
+    margin-left: -10px;
+}
+
+.hover-li {
+    float: left;
+    margin: 0;
+    width: 22%;
+}
+
+.hover-li-item {
+    color: #f1bc7a !important;
+}
+
+.hover-li a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.hover-li ul li {
+    display: block !important;
+}
+
+.menuList {
+    padding: 15px;
+
+}
+.menuList:hover .menuHover {
+    display: flex;
+    transition-delay: 1s;
+}
+
+.hover-li ul {
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.bannerMenu {
+    background-image: url('https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 190px;
+    margin-bottom: 19px;
+}
+
+.hover-li {
+    width: 17%;
+}
+
+li.hover-li{
+    margin: 0;
+    text-align: center;
+    width: 16.5%;
+}
+
+.content {
+    display: block;
+    overflow: hidden;
+}
+
+.about1 {
+    background-color: #ffffff;
+    display: block;
+    overflow: hidden;
+}
+
+.about2 {
+    background-color: #bd945d;
+    overflow: hidden;
+}
+
+.about3 {
+    background-color: #8e5a2d;
+    overflow: hidden;
+}
+
+.img-about1 {
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    position: relative;
+}
+
+.div-img-1 {
+    float: right;
+}
+
+.div-img-2 {
+    float: left;
+}
+
+.img-about1 img {
+    width: 100%;
+  }
+
+.background1 {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, white , transparent);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.background2 {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, #bd945d , transparent);
+    top: 50%;
+    left: 50%;
+    transform: translate(-49.9%, -50%);
+    z-index: 9999;
+}
+
+.background3 {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #8e5a2d , transparent);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.cap {
+    margin: 65px 120px;
+}
+
+.cap2 {
+    margin: 65px 120px;
+    text-align: right;
+}
+
+.cap-about1 {
+    width: 50%;
+    float: right;
+}
+
+.cap-about2 {
+    width: 50%;
+    float: right;
+}
+
+.tend a {
+    display: block;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: normal;
+    color: #53382c;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tend a:hover {
+    transition: all 0.3s linear;
+    color: #ffc266;
+}
+
+.tend2 a {
+    display: block;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: normal;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tend2 a:hover {
+    transition: all 0.3s linear;
+    color: #ffc266;
+}
+
+.tend3 a {
+    display: block;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: normal;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.des p {
+    font-size: 15px;
+}
+
+.des2 p{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.des3 p{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.link a{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b22830;
+    text-transform: uppercase;
+    border: solid 1px #b22830;
+    padding: 7px 63px;
+    border-radius: 5px; 
+    text-decoration: none;
+}
+
+.link2 a{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: solid 1px #ffffff;
+    padding: 7px 63px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.link a:hover {
+    background-color: #b22830;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.link2 a:hover {
+    background: #ffffff;
+    color: #b22830;
+    transition: all 0.3s linear;
+}
+
