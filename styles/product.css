@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.ncf-wrapper {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ncf-header {
+    background-color: #b22830;
+}
+
+.headerTool {
+    float: right;
+    display: inline-block;  
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.logo {
+    margin-left: 150px;
+    display: inline-block;
+    max-width: 100px;
+}
+
+.input {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 200px;
+    height: 30px; 
+    padding-top: 5px;
+
+}
+
+.fa-search {
+    position: absolute;
+    z-index: 1;
+    margin: 9px 0px 0px -25px;
+}
+
+.rowTool {
+    margin: 0px;
+    padding: 0px;   
+}
+
+.search {
+    float: left;
+    position: relative;
+    z-index: 9;
+}
+
+.language {
+    float: right;
+    padding: 3px;
+}
+
+.language ul {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.language li{
+    display: inline;
+    list-style: none;
+}
+
+.menuTool li {
+    display: inline;
+    margin-top: 10px;
+
+}
+
+.menuTool ul {
+margin: -5px;
+font-weight: 600;
+font-size: 20px;
+}
+
+.menuTool a {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: px;
+    padding: 10px 17px 10px 17px;
+    text-decoration: none;
+}
+
+.menuTool {
+    text-align: center;
+    padding: 15px;
+}
+
+.menuList:hover {
+    background-color: #53382C;
+    /* transition-delay: 0,3s; */
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.col3 {
+    float: right;
+    margin-right: 100px;
+}
+
+.menuHover {
+    display: none;
+    position: absolute;
+    background-color: #53382C;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    animation-delay: 0,5s;
+    margin-top: 10px;
+}
+
+.img {
+    margin-top: 40px;
+}
+
+.tintuc {
+    margin-left: 150px;
+}
+
+.scrollMenu {
+    display: inline-block;
+    width: 100%;
+}
+
+.grid li {
+    display: inline-block;
+    margin-left: -10px;
+}
+
+.hover-li {
+    float: left;
+    margin: 0;
+    width: 22%;
+}
+
+.hover-li-item {
+    color: #f1bc7a !important;
+}
+
+.hover-li a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.hover-li ul li {
+    display: block !important;
+}
+
+.menuList {
+    padding: 15px;
+
+}
+.menuList:hover .menuHover {
+    display: flex;
+    transition-delay: 1s;
+}
+
+.hover-li ul {
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.bannerMenu {
+    background-image: url('https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 190px;
+    margin-bottom: 19px;
+}
+
+.hover-li {
+    width: 17%;
+}
+
+li.hover-li{
+    margin: 0;
+    text-align: center;
+    width: 16.5%;
+}
+
+.content {
+    background: #fbedd7;
+    overflow: hidden;
+}
+
+.new-title {
+    margin-left: 11%;
+    margin-top: 42px;
+    margin-bottom: 20px;
+}
+
+.menu-img {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid 1px rgb(243, 189, 122);
+    padding: 100px 60px 100px 60px;
+    width: 20.333333% !important;
+}
+
+.rowpadding {
+    width: 25.333333% !important;
+}
+
+.col-md-4 a {
+    cursor: pointer;
+}
+
+.row {
+    text-align: center;
+}
+
+.tend a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.tend h3 {
+    width: 103%;
+}
+
+.main-content {
+    margin-left: 143px;
+}
+
+.content-title {
+    margin-left: 170px;
+    margin-top: 50px;
+}
