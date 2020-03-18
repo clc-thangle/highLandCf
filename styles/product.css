@@ -95,7 +95,7 @@ font-size: 20px;
 
 .menuList:hover {
     background-color: #53382C;
-    /* transition-delay: 0,3s; */
+    transition-delay: 0,3s;
 }
 
 .wrapper {

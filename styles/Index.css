@@ -251,18 +251,21 @@ li.hover-li{
     color: black;
     background-color: rgb(177, 42, 45);
     animation-delay: 0.5s;
+    transition: all 0.3s linear;
 }
 
 .khampha2:hover {
     color: black;
     background-color: rgb(72, 98, 50);
     animation-delay: 0.5s;
+    transition: all 0.3s linear;
 }
 
 .khampha:hover {
     color: black;
     background-color: rgb(243, 189, 122);
     animation-delay: 0.5s;
+    transition: all 0.3s linear;
 }
 
 .col-b1 {
