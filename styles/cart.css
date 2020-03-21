@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.ncf-wrapper {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ncf-header {
+    background-color: #b22830;
+}
+
+.headerTool {
+    float: right;
+    display: inline-block;  
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.logo {
+    margin-left: 150px;
+    display: inline-block;
+    max-width: 100px;
+}
+
+.input {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 200px;
+    height: 30px; 
+    padding-top: 5px;
+
+}
+
+.fa-search {
+    position: absolute;
+    z-index: 1;
+    margin: 9px 0px 0px -25px;
+}
+
+.rowTool {
+    margin: 0px;
+    padding: 0px;   
+}
+
+.search {
+    float: left;
+    position: relative;
+    z-index: 9;
+}
+
+.language {
+    float: right;
+    padding: 3px;
+}
+
+.language ul {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.language li{
+    display: inline;
+    list-style: none;
+}
+
+.menuTool li {
+    display: inline;
+    margin-top: 10px;
+
+}
+
+.menuTool ul {
+margin: -5px;
+font-weight: 600;
+font-size: 20px;
+}
+
+.menuTool a {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: px;
+    padding: 10px 17px 10px 17px;
+    text-decoration: none;
+}
+
+.menuTool {
+    text-align: center;
+    padding: 15px;
+}
+
+.menuList:hover {
+    background-color: #53382C;
+    /* transition-delay: 0,3s; */
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.col3 {
+    float: right;
+    margin-right: 100px;
+}
+
+.menuHover {
+    display: none;
+    position: absolute;
+    background-color: #53382C;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    animation-delay: 0,5s;
+    margin-top: 10px;
+}
+
+.img {
+    margin-top: 40px;
+}
+
+.tintuc {
+    margin-left: 150px;
+}
+
+.scrollMenu {
+    display: inline-block;
+    width: 100%;
+}
+
+.grid li {
+    display: inline-block;
+    margin-left: -10px;
+}
+
+.hover-li {
+    float: left;
+    margin: 0;
+    width: 22%;
+}
+
+.hover-li-item {
+    color: #f1bc7a !important;
+}
+
+.hover-li a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.hover-li ul li {
+    display: block !important;
+}
+
+.menuList {
+    padding: 15px;
+
+}
+.menuList:hover .menuHover {
+    display: flex;
+    transition-delay: 1s;
+}
+
+.hover-li ul {
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.bannerMenu {
+    background-image: url('https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 190px;
+    margin-bottom: 19px;
+}
+
+.hover-li {
+    width: 17%;
+}
+
+li.hover-li{
+    margin: 0;
+    text-align: center;
+    width: 16.5%;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    width: 17%;
+    padding: 0;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    width: 73%;
+    padding: 0;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .col-25 .container {
+    width: 147%;
+    margin-top: 26px;
+  }
+
+  .col-75 .container {
+    width: 95%;
+    margin-left: 0px;
+    margin-top: 26px;
+  }
+
+  .col-25 .container {
+    overflow: scroll;
+    height: 598px;
+    width: 166%;
+  }
+
+  .total {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    width: 166%;
+  }
+
+  .container {
+    background-color: #f2f2f2;
+    /* padding: 5px 20px 15px 20px; */
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+
+  .order-details span {
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    border-color: rgb(177, 42, 45);
+    color: rgb(177, 42, 45);
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    color: white;
+    background-color: rgb(177, 42, 45);
+    animation-delay: 0.5s;
+    transition: all 0.3s linear;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
