@@ -156,7 +156,7 @@ font-size: 20px;
 }
 
 .hover-li ul li {
-    display: block !important;
+    display: block ;
 }
 
 .menuxt {
@@ -582,12 +582,15 @@ li.hover-li{
         width: 127.6%;
     }
     .menuList:hover {
-        color: black;
-        margin-left: 7%;
+        margin-left: -19%;
         background-color: rgb(177, 42, 45);
         animation-delay: 0.5s;
         transition: all 0.3s linear;
+        width: 127.5%;
         margin-right: -2%;
+    }
+    .menuList:hover a{
+        color: white;
     }
     .header-drop.active {
         background-color: #B22830 !important;
@@ -607,14 +610,50 @@ li.hover-li{
     .menuxt2-show li{
         text-align: left;
     }
-    .m-sub div.active .fa-angle-down , .header-drop.active .menuxt .fa-angle-down {
+    /* .msub div.active .fa-angle-down , .header-drop.active .menuxt .fa-angle-down {
         display: inline-block;
     }
-    .m-sub div.active .fa-angle-right ,.header-drop.active .menuxt .fa-angle-right {
+    .msub div.active .fa-angle-right ,.header-drop.active .menuxt .fa-angle-right {
+        display: none;
+    } */
+    .mmenu.active {
+        display: block;
+    }
+    .menu div .fa-angle-down {
         display: none;
     }
+    .mmenu div.active .fa-angle-down, .header-drop.active .menuxt .fa-angle-down {
+        display: inline-block;
+    }
+    .mmenu div.active .fa-angle-right ,.header-drop.active .menuxt .fa-angle-right {
+        display: none;
+    }
+    /* .m-cate div.active .fa-angle-down, .header-drop.active .menuxt .fa-angle-down {
+        display: inline-block;
+    }
+    .m-cate div.active .fa-angle-right ,.header-drop.active .menuxt .fa-angle-right {
+        display: none;
+    } */
+    /* .menuxt2 div.active .fa-angle-down, .header-drop.active .menuxt .fa-angle-down {
+        display: inline-block;
+    }
+    .menuxt2 div.active .fa-angle-right ,.header-drop.active .menuxt .fa-angle-right {
+        display: none;
+    } */
+    /* .m-cate.active {
+        display: block;
+    } */
+    .menuxt2-show {
+        display: none!important;
+    }
+    .menuxt2-show.active {
+        display: block!important;
+    }
     .mmenu.active {
-        display: inline-block
+        display: inline-block;
+    }
+    .msub.active {
+        display: block;
     }
     .menuHover {
         display: block;
