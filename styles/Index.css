@@ -92,6 +92,7 @@ font-size: 20px;
 .menuTool {
     text-align: center;
     padding: 15px;
+    margin-left: 10%;
 }
 
 .menuList:hover {
@@ -120,6 +121,10 @@ font-size: 20px;
     left: 0;
     animation-delay: 0,5s;
     margin-top: 10px;
+}
+
+.menuxt2 {
+    display: none;
 }
 
 .img {
@@ -186,6 +191,7 @@ font-size: 20px;
     margin-bottom: 19px;
 }
 
+.
 
 .slider {
     position: absolute;
@@ -537,7 +543,7 @@ li.hover-li{
     .menuTool {
         text-align: center;
         display: none;
-        position: absolute;
+        position: fixed;
         z-index: 1;
         right: 0;
         margin-top: -12%;
@@ -546,6 +552,9 @@ li.hover-li{
         width: 45%;
         padding-right: 22px;
         padding-left: 0;
+        padding-bottom: 0;
+        padding: 0 22px 0 0;
+        overflow-x: hidden;
     }
     .menuTool li {
         display: block;
@@ -566,9 +575,18 @@ li.hover-li{
     }
     .btnX {
         display: inline-block;
-        margin-left: -16%;
-        margin-top: -5%;
+        margin-top: 1px;
+        margin-left: 1px;
     }
+    .btnX:hover {
+        background-color: #B22830;
+        transition: all 0.3s linear;
+        color: white;
+    }
+    /* div.menuTool {
+        overflow: scroll;
+        height: 50%;
+    } */
     .scrollMenu {
         display: none;
     }
@@ -577,28 +595,32 @@ li.hover-li{
         text-align: left;
     }
     .menuList {
-        margin-left: -19%;
-        margin-top: 10.5%;
-        width: 127.6%;
+        border-bottom: 1px solid;
+        margin-left: -20%;
+        margin-top: -1.5%!important;
+        width: 127.6%!important;
     }
-    .menuList:hover {
+    /* .menuList:hover {
         margin-left: -19%;
         background-color: rgb(177, 42, 45);
         animation-delay: 0.5s;
         transition: all 0.3s linear;
         width: 127.5%;
         margin-right: -2%;
-    }
+    } */
     .menuList:hover a{
         color: white;
     }
-    .header-drop.active {
+    /* .header-drop.active {
         background-color: #B22830 !important;
-      }
+      } */
     .menuxt {
         float: right;
         display: block;
         margin-top: -3.5%;
+    }
+    .menuxt2 {
+        display: block;
     }
     .menuxt2 {
         margin-left: 51%;
@@ -616,6 +638,9 @@ li.hover-li{
     .msub div.active .fa-angle-right ,.header-drop.active .menuxt .fa-angle-right {
         display: none;
     } */
+    .carousel-indicators {
+        margin-left: -86%;
+    }
     .mmenu.active {
         display: block;
     }
@@ -634,12 +659,15 @@ li.hover-li{
     .m-cate div.active .fa-angle-right ,.header-drop.active .menuxt .fa-angle-right {
         display: none;
     } */
-    /* .menuxt2 div.active .fa-angle-down, .header-drop.active .menuxt .fa-angle-down {
+    .menuxt2 div.active .fa-angle-down, .header-drop.active .menuxt .fa-angle-down {
         display: inline-block;
     }
     .menuxt2 div.active .fa-angle-right ,.header-drop.active .menuxt .fa-angle-right {
         display: none;
-    } */
+    }
+    .menuxt2 .fa-angle-down {
+        display: none;
+    }
     /* .m-cate.active {
         display: block;
     } */
@@ -648,6 +676,7 @@ li.hover-li{
     }
     .menuxt2-show.active {
         display: block!important;
+        margin-bottom: 2%;
     }
     .mmenu.active {
         display: inline-block;
@@ -657,6 +686,7 @@ li.hover-li{
     }
     .menuHover {
         display: block;
+        width: 99%;
     }
     .bannerMenu {
         display: none;

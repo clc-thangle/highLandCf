@@ -30,7 +30,7 @@ window.onload = function () {
     })
   })
 
-  const lis = document.querySelectorAll('.msub');
+  const lis = document.querySelectorAll('.hover-li');
   lis.forEach(item => {
     console.log(item);
     item.getElementsByClassName('menuxt2')[0].addEventListener('click', e => {
